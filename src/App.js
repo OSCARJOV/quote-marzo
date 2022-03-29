@@ -10,11 +10,11 @@ function App() {
   const quotesArray = (Quote.quotes)
   const [quote, setQuote] = useState("Life isn’t about getting and having, it’s about giving and being. ");
   const [author, setAuthor] = useState("Kevin Kruse");
-  const [randomNumber, setRandomNumber] = useState(0)
+  //const [randomNumber, setRandomNumber] = useState(0)
 
   const getRandomQuote = () => {
     let randomInteger = Math.floor(quotesArray.length*Math.random())
-    setRandomNumber(randomInteger)
+    //setRandomNumber(randomInteger)
     setAccentColor(Colors[randomInteger])
     setQuote(quotesArray[randomInteger].quote)
     setAuthor(quotesArray[randomInteger].author)
