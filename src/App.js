@@ -4,6 +4,7 @@ import Quote from "./Quote.json";
 import Colors from './colorsRandom';
 
 
+
 function App() {
 
   const quotesArray = (Quote.quotes)
